@@ -1,0 +1,59 @@
+body{
+	background-image: url(http://i.stack.imgur.com/jGlzr.png);
+}
+h1{
+	border: 3px dotted black;
+	max-width: 760px;
+}
+
+.head{
+	font-family: Century Gothic, sans-serif;
+}
+
+.info{
+	border: 3px solid black;
+}
+
+.list{
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	font-size: 30px;
+}
+
+p.paragraph{
+	font-size: 18px;
+	max-width: 760px;
+}
+
+table{
+	display: flex;
+	justify-content: center;
+}
+
+#last{
+	color: white;
+	background-image: url(http://i.imgur.com/A2rqm.png)
+}
+
+.main{
+	max-width: 760px;
+}
+
+a:visited{
+	color: green;
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+  	font-size: 1.3em;
+  }
+  h2{
+  	font-size: 1.0em;
+  }
+  .list{
+  	font-size: 1.0em;
+  }
+  
+}
