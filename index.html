@@ -1,38 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>Noah's First Website</title>
+	<link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
 	<header>
-		<h1>So this is my first website.</h1>
-		<p>Yeah, I don't really have that much experience with this type of stuff. But that's ok! I'm here to learn! And I am to talk about a project, so I shall talk about video games. I love playing video games. They're so much fun! They've gone a long way, too...</p>
+		<h1 class="head">So this is my first website.</h1>
+		<p class="paragraph">Yeah, I don't really have that much experience with this type of stuff. But that's ok! I'm here to learn! And I am to talk about a project, so I shall talk about video games. I love playing video games. They're so much fun! They've gone a long way, too...</p>
 	</header>
-	<h2>We've gone a long way from this...</h2>
-	<p> <img src="images/50-ToyHallofFame-atari-2600-game-system.jpg" alt="really old machine" style="width:300px;height:300px;">
-	</p>
+	<main class="main">
+		<h2 class="head">We've gone a long way from this...</h2>
+		<p class="paragraph"> <img src="images/50-ToyHallofFame-atari-2600-game-system.jpg" alt="really old machine" style="width:300px;height:300px;">
+		</p>
+		<div class="img2">
+			<h2 class="head">...To this.</h2>
+			<img src="images/PS4.jpg" alt="really fancy machine" style="width:300px;height:300px;">
+		</div>
+		
+		<section class="info">
+			<h2 class="head">Games and Me</h2>
+			<p class="paragraph">I've been playing video games for a long time. My dad bought me my first console (a PS2, lest I ever forget) back when I was 5, and I've been gaming ever since.</p>
+		</section>
+		<section class="list">
+			<p>My Top 5 Favorite Video Games:</p>
+				<ol>
+					<li>Kingdom Hearts 2</li>
+					<li>Persona 4 Golden</li>
+					<li>Final Fantasy XII</li>
+					<li>Maplestory</li>
+					<li>Overwatch</li>
+				</ol>
+		</section>
 
-	<h2>...To this.</h2>
-	
-	<img src="images/PS4.jpg" alt="really fancy machine" style="width:300px;height:300px;">
-	
-	<section>
-		<h2>Games and Me</h2>
-		<p><font size="+2">I've been playing video games for a long time. My dad bought me my first console (a PS2, lest I ever forget) back when I was 5, and I've been gaming ever since.</font></p>
-	</section>
-	<section>
-		<p>My Top 5 Favorite Video Games:</p>
-			<ol>
-				<li>Kingdom Hearts 2</li>
-				<li>Persona 4 Golden</li>
-				<li>Final Fantasy XII</li>
-				<li>Maplestory</li>
-				<li>Overwatch</li>
-			</ol>
-	</section>
-
-	Here is a table about all the popular home game consoles, their creators and their year of release:
-
+		<h2 class="head">Here is a table about all the popular home game consoles, their creators and their year of release:</h2>
+	</main>
 	<table border="1">
 		<tr>
 			<th>Name</th>
@@ -112,11 +114,14 @@
 		</tr>
 	</table>
 	<section>
-		<h2><a href="https://en.wikipedia.org/wiki/History_of_video_games">Here</a> is a comprehensive breakdown on the history of video games.</h2>
-		<p>A note about the above link...It does a lot of things well (it has to, it's wikipedia). Looking at the source code, despite the numerous amount of lines and things in there that I don't understand, there was plenty that stood out that I did understand. I could see where the divs divided up all of the different sections of the website, where the tables started and ended, etc. I think the biggest part about what makes it good is how organized it is. It's all sectioned off properly and there is a lot of indenting to differentiate different lines and sections within blocks. It's very well done.</p>
+		<h2 class="head"><a href="https://en.wikipedia.org/wiki/History_of_video_games">Here</a> is a comprehensive breakdown on the history of video games.</h2>
+		<p class="paragraph" id="last">A note about the above link...It does a lot of things well (it has to, it's wikipedia). Looking at the source code, despite the numerous amount of lines and things in there that I don't understand, there was plenty that stood out that I did understand. I could see where the divs divided up all of the different sections of the website, where the tables started and ended, etc. I think the biggest part about what makes it good is how organized it is. It's all sectioned off properly and there is a lot of indenting to differentiate different lines and sections within blocks. It's very well done.</p>
+	</section>
 
-
-	<h3>WARNING</h3>
+	<h3 class="head">WARNING</h3>
 	<a href="warning.html">A Warning About Playing Video Games</a>
+	<footer>
+		<p class="paragraph">Thanks for visiting!</p>
+	</footer>
 </body>
 </html>
